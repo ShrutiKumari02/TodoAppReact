@@ -1,0 +1,31 @@
+.taskBox {
+  width: 90%;
+  margin: auto;
+  max-height: 50%;
+  padding: 5px;
+  background-color: rgb(103, 121, 14);
+  box-shadow: 6px 6px 4px rgb(124, 155, 155) inset;
+  overflow-y: scroll;
+}
+
+.task {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  padding: 7px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+  background-color: rgb(205, 120, 55);
+  flex-wrap: wrap;
+  box-shadow: 6px 6px 4px rgb(231, 163, 217);
+}
+
+.task .icons {
+  display: flex;
+  gap: 1.3rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
